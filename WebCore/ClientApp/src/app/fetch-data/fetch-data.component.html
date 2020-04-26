@@ -16,6 +16,7 @@
       <td>{{ forecast.ShipAddress }}</td>
       <td>{{ forecast.ShipName }}</td>
       <td>{{ forecast.ShipCity }}</td>
+      <td><button (click)="eliminar(forecast)" class="btn btn-danger">detalle</button></td>
       <td><button (click)="Editar(forecast)" class="btn btn-warning">edit</button></td>
       <td><button (click)="eliminar(forecast)" class="btn btn-danger">eliminar</button></td>
     </tr>
